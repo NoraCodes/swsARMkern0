@@ -3,6 +3,8 @@ SWS ARMKern
 
 ###Directories
 
+```
+
 `src/` - source files.
 	`bootstrap.s` - Assembly for setting up the environment for the kernel
 	`context-switch.s` - Switch to user mode
@@ -21,3 +23,5 @@ SWS ARMKern
 `isosrc/` - ISO image building files
 `obj/` - *.o files
 `elf/` - *.elf files, the final stage of compilation
+
+```
