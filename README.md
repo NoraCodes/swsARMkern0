@@ -1,6 +1,11 @@
 SWS ARMKern
 ------
 
+###Dependencies
+
+* gcc-arm-linux-gnueabi
+* qemu-system-arm
+
 ###Directories
 
 ```
