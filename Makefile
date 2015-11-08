@@ -18,7 +18,7 @@ clean:
 	rm -f obj/*.o elf/*.elf
 
 test:
-	qemu-system-arm -M versatilepb -cpu arm1176 -nographic -kernel elf/kernel.elf
+	x-terminal-emulator -e qemu-system-arm -M versatilepb -cpu arm1176 -nographic -kernel elf/kernel.elf
 
 .SUFFIXES: .s .c .o .elf
 
